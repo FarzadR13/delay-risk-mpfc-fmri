@@ -1,0 +1,12 @@
+The files in data/ and source_data/ are licensed under the Creative Commons Attribution 4.0
+International License (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+
+Copyright (c) 2026 Farzad Rostami
+
+When using these data, please cite this repository (see CITATION.cff).
+
+Third-party resources are not redistributed here. code/00_masks/build_masks.py downloads the
+Bartra, McGuire and Kable (2013) meta-analytic maps from the Kable lab website and the Harvard-Oxford
+atlases through nilearn; these remain under their own terms. data/masks/left_ifg_pars_triangularis.nii.gz
+is the Harvard-Oxford left inferior frontal gyrus, pars triangularis, resampled to the analysis grid, as
+used in the analysis.

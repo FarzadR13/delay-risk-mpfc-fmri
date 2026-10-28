@@ -1,0 +1,9 @@
+_work/
+.venv*/
+__pycache__/
+*.mat
+id_key*
+.cache/
+results/masks/
+results/stats/
+results/source_data/

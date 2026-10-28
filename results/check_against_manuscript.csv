@@ -1,0 +1,120 @@
+stat_id,figure_or_section,quantity,manuscript_value,reproduced_value,status
+beh_delta_diff,Results (behavior),delta paired difference immediate minus delayed,-0.180,-0.1797487150416666,MATCH
+beh_delta_diff_ci_low,Results (behavior),delta difference 95% CI low,-0.351,-0.3512966316918342,MATCH
+beh_delta_diff_ci_high,Results (behavior),delta difference 95% CI high,-0.008,-0.008200798391499,MATCH
+beh_delta_t,Results (behavior),delta t(23),-2.17,-2.1675491873927344,MATCH
+beh_delta_p,Results (behavior),delta p,0.041,0.0407910939167558,MATCH
+beh_delta_d,Results (behavior),delta Cohen's d,0.44,0.4424491251247096,MATCH
+beh_gamma_diff,Results (behavior),gamma paired difference immediate minus delayed,0.130,0.1303317266783333,MATCH
+beh_gamma_diff_ci_low,Results (behavior),gamma difference 95% CI low,0.058,0.0575282086932526,MATCH
+beh_gamma_diff_ci_high,Results (behavior),gamma difference 95% CI high,0.203,0.203135244663414,MATCH
+beh_gamma_t,Results (behavior),gamma t(23),3.70,3.7032787114413743,MATCH
+beh_gamma_p,Results (behavior),gamma p,0.001,0.0011718057022761,MATCH
+beh_gamma_d,Results (behavior),gamma Cohen's d,0.76,0.7559286015285793,MATCH
+beh_wemp_p090_p,Discussion,delayed minus immediate empirical w(p) at p = 0.90,significant (p < 0.05),0.01677936357264616,MATCH
+beh_decomp,Discussion / Methods,elevation-only change raises w(p) at all interior p; curvature-only change raises low-p and lowers high-p weights,qualitative,consistent,MATCH
+meth_n_behavior,Methods,behavioral sample,24,24.0,MATCH
+meth_n_fmri,Methods,fMRI sample,22,22,MATCH
+meth_bartra_voxels,Methods,meta-analytic mPFC mask size,460,460,MATCH
+meth_glm1_glm2_r,Methods,voxelwise r between GLM1 and GLM2 immediate signed-distance maps,0.998,0.9982887116268464,MATCH
+meth_t_threshold,Methods,cluster-forming T threshold (p < 0.001 df = 21),3.53,3.527153668869178,MATCH
+fig4a_mpfc_xyz,Results Fig 4A,GLM1 immediate distance mPFC peak (MNI),[6 50 14],[6 50 14],MATCH
+fig4a_mpfc_T,Results Fig 4A,mPFC peak T(21),5.49,5.48754119873047,MATCH
+fig4a_mpfc_Z,Results Fig 4A,mPFC peak Z,4.27,4.27471584305637,MATCH
+fig4a_mpfc_k,Results Fig 4A,mPFC cluster k,48,48.0,MATCH
+fig4a_mpfc_pfwe,Results Fig 4A,mPFC cluster-level pFWE,0.048,0.0479926920199899,MATCH
+fig4a_mtg_xyz,Results Fig 4A,right posterior MTG peak,[60 -40 -1],[60 -40 -1],MATCH
+fig4a_mtg_k,Results Fig 4A,MTG cluster k,74,74.0,MATCH
+fig4a_mtg_pfwe,Results Fig 4A,MTG cluster-level pFWE,0.008,0.0084853091840845,MATCH
+fig4a_svc_xyz,Results Fig 4A,Bartra-mask SVC peak,[6 50 8],[6 50 8],MATCH
+fig4a_svc_T,Results Fig 4A,SVC peak T(21),4.34,4.34260225296021,MATCH
+fig4a_svc_Z,Results Fig 4A,SVC peak Z,3.63,3.62733428360914,MATCH
+fig4a_svc_pfwe,Results Fig 4A,SVC peak-level pFWE,0.034,0.0337908578153215,MATCH
+fig4_delayed_min_pfwe,Results Fig 4,GLM1 delayed distance smallest cluster-level pFWE (either sign),0.94,0.943400013728945,MATCH
+fig4b_xyz,Fig 4B legend,immediate > delayed distance peak,[6 50 17],[6 50 17],MATCH
+loso_imm_mean,Results Fig 4B,LOSO immediate slope mean,0.037,0.0372559762174703,MATCH
+loso_imm_ci_low,Results Fig 4B,LOSO immediate 95% CI low,0.017,0.0173160466101486,MATCH
+loso_imm_ci_high,Results Fig 4B,LOSO immediate 95% CI high,0.057,0.0571959058247919,MATCH
+loso_imm_t,Results Fig 4B,LOSO immediate t(21),3.89,3.885572590599665,MATCH
+loso_imm_p,Results Fig 4B,LOSO immediate p,< 0.001,0.0008538163090236,MATCH
+loso_imm_dz,Results Fig 4B,LOSO immediate Cohen's dz,0.83,0.8284068597675736,MATCH
+loso_del_mean,Results Fig 4B,LOSO delayed slope mean,-0.002,-0.0020283211463778,MATCH
+loso_del_ci_low,Results Fig 4B,LOSO delayed 95% CI low,-0.021,-0.0212600969612599,MATCH
+loso_del_ci_high,Results Fig 4B,LOSO delayed 95% CI high,0.017,0.0172034546685042,MATCH
+loso_del_t,Results Fig 4B,LOSO delayed t(21),-0.22,-0.2193310060476677,MATCH
+loso_del_p,Results Fig 4B,LOSO delayed p,0.83,0.8285100242559886,MATCH
+loso_diff_mean,Results Fig 4B,LOSO immediate minus delayed mean,0.039,0.0392842973638481,MATCH
+loso_diff_ci_low,Results Fig 4B,LOSO difference 95% CI low,0.010,0.010440353191888,MATCH
+loso_diff_ci_high,Results Fig 4B,LOSO difference 95% CI high,0.068,0.0681282415358083,MATCH
+loso_diff_t,Results Fig 4B,LOSO difference t(21),2.83,2.832350811359416,MATCH
+loso_diff_p,Results Fig 4B,LOSO difference p,0.010,0.0099777261404106,MATCH
+loso_diff_dz,Results Fig 4B,LOSO difference dz,0.60,0.603859221952222,MATCH
+heat_imm_grad,Results Fig 5A,immediate distance gradient (high minus low bin) mean,1.16,1.161331840814214,MATCH
+heat_imm_ci_low,Results Fig 5A,immediate gradient 95% CI low,0.30,0.3041574302992934,MATCH
+heat_imm_ci_high,Results Fig 5A,immediate gradient 95% CI high,2.02,2.0185062513291343,MATCH
+heat_imm_t,Results Fig 5A,immediate gradient t(21),2.82,2.817538350251838,MATCH
+heat_imm_p,Results Fig 5A,immediate gradient p,0.010,0.0103155533319718,MATCH
+heat_del_t,Results Fig 5B,delayed gradient t(21),-0.35,-0.3466241005794434,MATCH
+heat_del_p,Results Fig 5B,delayed gradient p,0.73,0.7323229016225603,MATCH
+fig5c_r,Results Fig 5C,immediate main effect vs gamma Pearson r(20),0.54,0.5421310461153617,MATCH
+fig5c_ci_low,Results Fig 5C,r 95% CI low,0.16,0.1562321078753723,MATCH
+fig5c_ci_high,Results Fig 5C,r 95% CI high,0.78,0.7844419317339024,MATCH
+fig5c_p,Results Fig 5C,p,0.009,0.009149577650342,MATCH
+fig5c_rho,Results Fig 5C,Spearman rho,0.43,0.4251835121400339,MATCH
+fig5c_rho_p,Results Fig 5C,Spearman p,0.049,0.0485366999919513,MATCH
+fig5d_r,Results Fig 5D,delayed main effect vs gamma Pearson r(20),0.44,0.4411517571342316,MATCH
+fig5d_ci_low,Results Fig 5D,r 95% CI low,0.02,0.0240087832640053,MATCH
+fig5d_ci_high,Results Fig 5D,r 95% CI high,0.73,0.7274579028366949,MATCH
+fig5d_p,Results Fig 5D,p,0.040,0.0398605718438266,MATCH
+fig5d_rho,Results Fig 5D,Spearman rho,0.54,0.5369847543760589,MATCH
+fig5d_rho_p,Results Fig 5D,Spearman p,0.010,0.0099694199004317,MATCH
+fig6a_mpfc_xyz,Results Fig 6A,GLM2 delayed negative w(p) mPFC peak,[-9 59 26],[-9 59 26],MATCH
+fig6a_mpfc_Z,Results Fig 6A,mPFC Z,4.38,4.37531491347106,MATCH
+fig6a_mpfc_T,Results Fig 6A,mPFC T,5.69,5.68512201309204,MATCH
+fig6a_mpfc_k,Results Fig 6A,mPFC k,71,71.0,MATCH
+fig6a_mpfc_pfwe,Results Fig 6A,mPFC cluster pFWE,0.014,0.0140696547864638,MATCH
+fig6a_pcc_xyz,Results Fig 6A,PCC peak,[-6 -52 32],[-6 -52 32],MATCH
+fig6a_pcc_Z,Results Fig 6A,PCC Z,4.34,4.33664360910884,MATCH
+fig6a_pcc_T,Results Fig 6A,PCC T,5.61,5.60846710205078,MATCH
+fig6a_pcc_k,Results Fig 6A,PCC k,71,71.0,MATCH
+fig6a_pcc_pfwe,Results Fig 6A,PCC cluster pFWE,0.014,0.0140696547864638,MATCH
+fig6a_ag_xyz,Results Fig 6A,left AG peak,[-48 -64 26],[-48 -64 26],MATCH
+fig6a_ag_Z,Results Fig 6A,AG Z,4.43,4.42621578841148,MATCH
+fig6a_ag_T,Results Fig 6A,AG T,5.79,5.7873911857605,MATCH
+fig6a_ag_k,Results Fig 6A,AG k,111,111.0,MATCH
+fig6a_ag_pfwe,Results Fig 6A,AG cluster pFWE,0.002,0.0015361126637113,MATCH
+fig6_imm_min_pfwe,Results Fig 6,GLM2 immediate w(p) smallest cluster pFWE (either sign),0.64,0.641586378535304,MATCH
+fig6_direct_min_pfwe,Results Fig 6,delayed more negative than immediate w(p): smallest cluster pFWE,0.99,0.992868305360293,MATCH
+fig6_direct_opposite,Results Fig 6,opposite direction: voxels at p < 0.001,0,0,MATCH
+fig6_peak_distance,Results Fig 6,distance between Fig 4A and Fig 6A mPFC peaks (mm),21,21.213203435596427,MATCH
+fig6_overlap,Results Fig 6,voxels shared by the Fig 4A mPFC cluster and the Fig 6A mPFC cluster,0 (no overlap),0,MATCH
+fig7_ag_r,Results Fig 7A,low-p delta w vs delayed w(p) slope in AG cluster Pearson r,-0.61,-0.612231387242821,MATCH
+fig7_ag_ci_low,Results Fig 7A,r 95% CI low,-0.82,-0.8217326271361177,MATCH
+fig7_ag_ci_high,Results Fig 7A,r 95% CI high,-0.26,-0.2569464533545818,MATCH
+fig7_ag_p,Results Fig 7A,p,0.002,0.0024576701405551,MATCH
+fig7_ag_pbonf,Results Fig 7A,Bonferroni p (x3),0.007,0.0073730104216653,MATCH
+fig7_ag_rho,Results Fig 7A,Spearman rho,-0.68,-0.6800339158494395,MATCH
+fig7_ag_rho_p,Results Fig 7A,Spearman p,< 0.001,0.0004977457421729,MATCH
+fig7_mpfc_r,Results Fig 7,mPFC cluster r,-0.33,-0.3315456688062737,MATCH
+fig7_mpfc_p,Results Fig 7,mPFC cluster p,0.13,0.1317279746903347,MATCH
+fig7_pcc_r,Results Fig 7,PCC cluster r,-0.37,-0.3650896647360749,MATCH
+fig7_pcc_p,Results Fig 7,PCC cluster p,0.095,0.0947791610822013,MATCH
+fig7_ag_robust_min,Results Fig 7,AG Theil-Sen / leave-one-out r range lower bound,-0.68,-0.6830474079236065,MATCH
+fig7_ag_robust_max,Results Fig 7,AG Theil-Sen / leave-one-out r range upper bound,-0.56,-0.5638302255205011,MATCH
+fig7_hoag_r,Results Fig 7,HO left AG mask r,-0.58,-0.5770332716969397,MATCH
+fig7_hoag_p,Results Fig 7,HO left AG mask p,0.005,0.004929106562927,MATCH
+fig7_cov_none,Results Fig 7,whole-brain covariate: clusters surviving whole-brain correction,none,none,MATCH
+fig7_cov_peak_xyz,Results Fig 7,covariate strongest peak,[-48 -52 14],[-48 -52 14],MATCH
+fig7_cov_peak_T,Results Fig 7,covariate strongest peak T(20),5.23,5.23408126831055,MATCH
+fig7_ifg_xyz,Results Fig 7B,covariate IFG peak,[-51 20 2],[-51 20 2],MATCH
+fig7_ifg_T,Results Fig 7B,IFG peak T(20),4.64,4.63522672653198,MATCH
+fig7_ifg_k,Results Fig 7B,IFG voxels at p < 0.001,21,21.0,MATCH
+fig7_ifg_r,Results Fig 7B,HO left pars triangularis r,-0.47,-0.4734911597424576,MATCH
+fig7_ifg_p,Results Fig 7B,IFG p,0.026,0.0260239065348188,MATCH
+fig7_ifg_rho,Results Fig 7B,IFG Spearman rho,-0.61,-0.6088675758186842,MATCH
+fig7_ifg_rho_p,Results Fig 7B,IFG Spearman p,0.003,0.002635804419195,MATCH
+fig7_sens3_r,Results Fig 7 sensitivity,HO AG r with p = 0.25 added to delta w,-0.55,-0.5473917883582567,MATCH
+fig7_sens3_p,Results Fig 7 sensitivity,p,0.008,0.0083696511623196,MATCH
+fig7_sens4_r,Results Fig 7 sensitivity,HO AG r with p = 0.25 and 0.50 added,-0.42,-0.4235390593736389,MATCH
+fig7_sens4_p,Results Fig 7 sensitivity,p,0.05,0.0495071745120583,MATCH
+fig7_highp_min_pbonf,Results Fig 7 sensitivity,high-p (0.90 and 0.95) delta w: smallest Bonferroni p across 3 clusters,> 0.2,0.2283874871961989,MATCH

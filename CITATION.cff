@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite this repository."
+title: "delay-risk-mpfc-fmri: code and data for a model-based fMRI study of risky choice under temporal delay"
+type: software
+license: MIT
+repository-code: "https://github.com/FarzadR13/delay-risk-mpfc-fmri"
+version: "1.0.0"
+date-released: "2026-10-28"
+authors:
+  - family-names: Rostami
+    given-names: Farzad
+    affiliation: "Institut des Sciences Cognitives Marc Jeannerod, CNRS UMR5229"
